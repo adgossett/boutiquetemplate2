@@ -1,0 +1,80 @@
+/*-- Use For Custom Styling --*/
+
+
+
+nav.navbar {
+    background-color: #000;
+    ;
+}
+
+
+.container2 {
+    width: 40%;
+    height: 800px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coupon-card {
+    background: linear-gradient(135deg, #7158) color #000;
+    text-align: center;
+    padding: 40px 80px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 0 #000;
+    position: relative;
+}
+
+.coupon {
+    width: fit-content;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.coupon-card h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.coupon-card {
+    font-size: 15px;
+}
+
+.coupon-row {
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+    width: fit-content;
+}
+
+#cpnCode {
+    border: 1px dashed rgba(244, 0, 122, 0.892);
+    ;
+    padding: 10px 20px;
+    border-right: 0;
+}
+
+#cpnBtn {
+    border: 1px solid rgba(244, 0, 122, 0.892);
+    ;
+    background: rgba(244, 0, 122, 0.892);
+    ;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+}
+
+.close:hover {
+    background: #bbb;
+}
