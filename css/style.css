@@ -61,6 +61,38 @@ Google Font
 ====================================== */
 
 /* font family */
+.cart-count-bg-hvr {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart-count-bg-hvr:hover {
+    color: #fff;
+}
+
+.cart-count {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
+.fas.fa-shopping-bag {
+    font-size: 20px;
+    margin-left: 5px;
+    color: #F86BA4;
+}
+
+
+
 
 .alt-font {
     font-family: 'Raleway', sans-serif;
@@ -90,7 +122,7 @@ nav.navbar.navbar-default.nav-White ul.nav>li>a,
 .header-appear nav.navbar.navbar-default.nav-white ul.nav>li>a,
 .header-appear .nav-white .header-social-icon a,
 .header-appear .nav-white .header-search-form:focus {
-    color: #013220;
+    color: #000;
 }
 
 .nav_line li.active a:before {
@@ -164,8 +196,8 @@ nav.navbar.navbar-default.nav-White ul.nav>li>a,
 #services-slider .service-box {
     position: relative;
     padding: 4rem 1rem;
-    background: rgba(244, 0, 122, 0.892);
-    color: #fff;
+    background: #F86BA4;
+    color: #F86BA4;
     text-align: center;
     -webkit-transition: all .5s ease .1s;
     -o-transition: all .5s ease .1s;
@@ -810,8 +842,11 @@ ul.packages li i {
     text-align: center;
     border: 1px solid transparent;
     border-radius: 50px;
-    background-color: #000;
+    background-color: #fff;
+
 }
+
+
 
 /*Side Nav */
 
@@ -872,7 +907,7 @@ ul.packages li i {
 }
 
 .pushmenu {
-    background: #17acc6;
+    background: #000;
     padding: 20px 15px;
     width: 600px;
     height: 100%;
@@ -911,7 +946,7 @@ ul.packages li i {
 .side-nav .menu_bars.active.right span {
     width: 24px;
     height: 2px;
-    background: #ffffff;
+    background: #F86BA4;
 }
 
 .menu_bars.active span.t1 {
@@ -986,7 +1021,7 @@ ul.packages li i {
 
 .pushmenu .push_nav>li>a,
 .header-appear .pushmenu .push_nav>li>a {
-    color: #fff !important;
+    color: #F86BA4 !important;
 }
 
 .pushmenu .push_nav>li>a>span {
@@ -996,7 +1031,7 @@ ul.packages li i {
     width: 30px;
     -webkit-transition: all linear 300ms;
     transition: all linear 300ms;
-    color: #fff !important;
+    color: #F86BA4 !important;
     opacity: 0.7;
     margin-right: 20px;
     margin-top: -12px;
@@ -1015,11 +1050,11 @@ ul.packages li i {
 }
 
 .sidebar_menu .small-icon li a {
-    color: #fff;
+    color: #F86BA4;
 }
 
 .sidebar_menu .small-icon li a:hover {
-    color: #fff;
+    color: #F86BA4;
 }
 
 .pushmenu.pushmenu-open .push_nav>li {
@@ -1049,7 +1084,7 @@ ul.packages li i {
     font-size: 16px;
     display: inline-block;
     text-align: center;
-    color: #fff;
+    color: #F86BA4;
     height: 30px;
     line-height: 30px;
     width: 30px;
@@ -1101,8 +1136,9 @@ ul.packages li i {
 }
 
 .blog-cover {
-    background-image: url(../newbanner.png);
+    background-image: url();
     height: 370px;
+
 }
 
 .bg-.portfolio .items2 {
@@ -2182,7 +2218,7 @@ nav.navbar.bootsnav li.dropdown ul li {
     display: inline-block;
     position: absolute;
     top: 0;
-    background-color: #17acc6;
+    background-color: #000;
     border-radius: 100%;
 
     -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
